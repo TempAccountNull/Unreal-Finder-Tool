@@ -125,10 +125,11 @@ bool ObjectsStore::ReadUObjectArray()
 
 			// Object container
 			auto curObject = std::make_unique<UEObject>();
-
+			
 			// Break if found bad object in GObjects array, GObjects shouldn't have bad object
 			// check is not a static address !
 			if (Utils::MemoryObj->IsStaticAddress(dwUObject) || !ReadUObject(dwUObject, *curObject))
+			if (Utils::MemoryObj->IsStaticAddress(dwUObject))
 				break;
 
 			lastObj = fUObject;
