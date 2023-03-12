@@ -128,9 +128,11 @@ bool ObjectsStore::ReadUObjectArray()
 			
 			// Break if found bad object in GObjects array, GObjects shouldn't have bad object
 			// check is not a static address !
-			if (Utils::MemoryObj->IsStaticAddress(dwUObject) || !ReadUObject(dwUObject, *curObject))
 			if (Utils::MemoryObj->IsStaticAddress(dwUObject))
 				break;
+
+			if(!ReadUObject(dwUObject, *curObject))
+				continue;
 
 			lastObj = fUObject;
 			GObjObjects.push_back(std::make_pair(dwUObject, std::move(curObject)));
