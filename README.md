@@ -12,7 +12,6 @@ Useful tool to help you fetch and dump Unreal Engine 4 Games information.
 | Read/Write Kernel | Read/Write Process memory with Kernel |
 
 ## Compatibility
-
 | Platform      | Game Compatibility |
 | ------------- | ------------------ |
 | Windows 64bit | x32 & x64          |
@@ -27,19 +26,6 @@ This video tell you how to use the tool and dump sdk for ue4 game.
 
 ## Screen Shots
 ![ui_1](/images/ui_1.png)
-![ui_2](/images/ui_2.png)
-![ui_3](/images/ui_3.png)
-
-## Download
-https://github.com/CorrM/Unreal-Finder-Tool/releases/latest
-
-## Credits
-Name | Reason
----- | ------
-[@CorrM](https://github.com/CorrM) | Build This Tool :v:
-[@WheresMyRide](https://github.com/WheresMyRide) | Bug Haunter :joy:
-@KN4CK3R | Base SDK Generator
-[@harakirinox](https://www.unknowncheats.me/forum/members/1692305.html) | BypassPH (Read/Write Kernal)
 
 ## Change Log
 ##### 11-3-2023 - 3.1.1
@@ -163,3 +149,11 @@ Name | Reason
 
 ##### 02-05-2019
 - First version released
+
+## Credits
+Name | Reason
+---- | ------
+[@CorrM](https://github.com/CorrM) | Build This Tool :v:
+[@WheresMyRide](https://github.com/WheresMyRide) | Bug Haunter :joy:
+@KN4CK3R | Base SDK Generator
+[@harakirinox](https://www.unknowncheats.me/forum/members/1692305.html) | BypassPH (Read/Write Kernal)
