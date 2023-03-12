@@ -1,10 +1,3 @@
-## Deprecated
-
-**This version is deprecated use version 4 for more fixes and featuer**
-[CheatGear](https://github.com/CorrM/cg)  
-Cheat Gear is not associated in anyway with the old UFT tool(v3) and has been completely rewritten.  
-The old tool(v3) will not be updated but will remain open source for anyone wanting to learn.
-
 # Unreal Finder Tool
 Useful tool to help you fetch and dump Unreal Engine 4 Games information.
 
