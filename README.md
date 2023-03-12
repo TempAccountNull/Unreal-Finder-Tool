@@ -8,15 +8,6 @@ The old tool(v3) will not be updated but will remain open source for anyone want
 # Unreal Finder Tool
 Useful tool to help you fetch and dump Unreal Engine 4 Games information.
 
-## Support And Goals
-- I already spent a good count of my time to make this tool and improve it, and will give it more time with your support.
-- There are some goals we would like to achieve on patreon.
-
-Website | Link
-------- | ----
-PayPal  | [![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](http://paypal.me/IslamNofl)
-Patron  | [![patron_button](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=16013498)
-
 ## Features
 | Feature           | Description |
 | ----------------- | ----------- |
@@ -58,6 +49,10 @@ Name | Reason
 [@harakirinox](https://www.unknowncheats.me/forum/members/1692305.html) | BypassPH (Read/Write Kernal)
 
 ## Change Log
+##### 11-3-2023 - 3.1.1
+- Allow to dump Unicode
+- Fix Crashes
+
 ##### 25-06-2019 - 3.1.0
 - Support `ProcessEvent`.
 - Add colors for GObjects input field.
